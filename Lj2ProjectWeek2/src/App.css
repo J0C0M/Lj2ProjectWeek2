@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+body {
+  background-color: var(--color-gray-100) /* oklch(96.7% 0.003 264.542) = #f3f4f6 */;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
