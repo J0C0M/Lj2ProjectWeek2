@@ -77,7 +77,7 @@ function Agenda() {
                                         onKeyDown={e => { if (e.key === 'Enter') handleSave() }}
                                     />
                                     <button
-                                        className="bg-blue-500 text-white px-2 py-1 rounded text-xs mr-1"
+                                        className="bg-blue-500  px-2 py-1 rounded text-xs mr-1"
                                         onClick={e => { e.stopPropagation(); handleSave() }}
                                     >Save</button>
                                     <button
